@@ -56,11 +56,11 @@ Configure Tomcat:
 
 Add sdk 11.0.3 in project struсture.
 
-Use file /jv-internet-shop/src/main/resources/init_db.sql to create schema and all the tables required by this app in MySQL database.
+Use [script](./src/main/resources/init_db.sql) to create schema and all the tables required by this app in MySQL database.
 
-At /jv-internet-shop/src/main/java/com/company/internetshop/factory/DaoAndServiceFactory class use username and password for your DB to create a Connection.
+At [DaoAndServiceFactory](./src/main/java/com/company/internetshop/factory/DaoAndServiceFactory.java) class use username and password for your DB to create a Connection.
 
-Change a path in /jv-internet-shop/src/main/resources/log4j.properties. It has to reach your logFile.
+Change a path in [log4j.properties](./src/main/resources/log4j.properties). It has to reach your logFile.
 
 Run the project.
 
